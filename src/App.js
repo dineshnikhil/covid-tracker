@@ -9,7 +9,7 @@ function App() {
     <div className="App bg-emerald-900">
       <Nav />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/covid-tracker' element={<Home />} />
         <Route path="/article/:id" element={<Article />} />
       </Routes>
     </div>

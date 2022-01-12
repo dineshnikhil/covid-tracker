@@ -13,7 +13,6 @@ ReactDOM.render(
   <BrowserRouter>
     <QueryClientProvider client={client}>
       <App />
-      <ReactQueryDevtools />
     </QueryClientProvider>
   </BrowserRouter>,
   document.getElementById('root')
